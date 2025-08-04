@@ -1,15 +1,48 @@
-# 💫 About Me:
-                            _________<br>                           /         /.<br>    .-------------.       /_________/ |<br>   /             / |      |         | |<br>  /+============+\ |      | |====|  | |<br>  ||C:\>        || |      |         | |<br>  ||            || |      | |====|  | |<br>  ||            || |      |   ___   | |<br>  ||            || |      |  |166|  | |<br>  ||            ||/@@@    |   ---   | |<br>  \+============+/    @   |_________|./.<br>                     @          ..  ....'<br>  ..................@     __.'.'  ''<br> /oooooooooooooooo//     ///<br>/................//     /_/<br>------------------
+<div align="center">
+<a href="https://git.io/typing-svg"><img src="https://www.google.com/search?q=https://readme-typing-svg.demolab.com%3Ffont%3DInter%26size%3D35%26pause%3D1000%26color%3D19A7CE%26center%3Dtrue%26vCenter%3Dtrue%26width%3D500%26lines%3DHey%2Bthere!%2BI%27m+[Your+Name];I'm+a+Full-Stack+Developer;I'm+a+Tech+Enthusiast;And+a+Creative+Problem-Solver." alt="Typing SVG" /></a>
+</div>
 
+<p align="center">
+<a href="[YOUR_LINKEDIN_URL]"><img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-0077B5%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite" alt="LinkedIn"/></a>
+<a href="[YOUR_TWITTER_URL]"><img src="https://www.google.com/search?q=https://img.shields.io/badge/Twitter-1DA1F2%3Fstyle%3Dfor-the-badge%26logo%3Dtwitter%26logoColor%3Dwhite" alt="Twitter"/></a>
+<a href="mailto:[YOUR_EMAIL]"><img src="https://www.google.com/search?q=https://img.shields.io/badge/Email-D14836%3Fstyle%3Dfor-the-badge%26logo%3Dgmail%26logoColor%3Dwhite" alt="Email"/></a>
+</p>
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white) ![AssemblyScript](https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=yyerf&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=yyerf&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=yyerf&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+👨‍💻 About Me
+I'm a passionate and results-driven developer with a knack for building robust and scalable web applications. My journey in tech started with a simple "Hello, World!" and has since grown into a full-fledged passion for creating meaningful digital experiences. I thrive in collaborative environments and I'm always eager to learn new technologies and take on challenging projects.
 
----
-[![](https://visitcount.itsvg.in/api?id=yyerf&icon=0&color=3)](https://visitcount.itsvg.in)
+🔭 I’m currently working on [Your Project Name], a tool to [briefly describe the project].
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+🌱 I’m currently learning [A New Technology, e.g., Go or Rust].
+
+👯 I’m looking to collaborate on Open Source projects related to [Your Interests].
+
+🤔 I’m looking for help with [A concept or problem you're stuck on].
+
+💬 Ask me about anything related to Web Development, Java, or C++.
+
+📫 How to reach me: [Your Email or LinkedIn]
+
+😄 Pronouns: He/Him
+
+⚡ Fun fact: [A fun fact about you, e.g., I can solve a Rubik's Cube in under a minute!]
+
+🛠️ My Tech Stack
+Here are some of the technologies I'm proficient in.
+
+Languages
+Backend & Databases
+Tools & Platforms
+📊 My GitHub Stats
+<p align="center">
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dyyerf%26theme%3Dtokyonight%26hide_border%3Dfalse%26include_all_commits%3Dtrue%26count_private%3Dfalse" alt="GitHub Stats" />
+<br/>
+<img src="https://www.google.com/search?q=https://nirzak-streak-stats.vercel.app/%3Fuser%3Dyyerf%26theme%3Dtokyonight%26hide_border%3Dfalse" alt="GitHub Streak" />
+<br/>
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dyyerf%26theme%3Dtokyonight%26hide_border%3Dfalse%26include_all_commits%3Dtrue%26count_private%3Dfalse%26layout%3Dcompact" alt="Top Languages" />
+</p>
+
+<div align="center">
+<p>Thank you for visiting my profile!</p>
+
+</div>
