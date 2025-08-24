@@ -1,4 +1,6 @@
-![](https://komarev.com/ghpvc/?username=yyerf&color=green&style=for-the-badge)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=yyerf&color=green&style=for-the-badge" alt="Profile Views" />
+</p>
 
 <p align="center">
   <a href="https://github.com/yyerf">
