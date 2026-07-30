@@ -66,11 +66,23 @@
 <!-- Professional social links                 -->
 <!-- ========================================= -->
 
-<h3 align="center">Connect with me</h3>
-
+<img src="assets/borderseperator.gif">
+  <h3 align="center">Connect With Me</h3>
 <p align="center">
-  <a href="https://github.com/yyerf" title="GitHub"><img src="https://img.shields.io/badge/-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub" height="42" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/geoffrey-diapana-310989386" title="LinkedIn"><img src="https://img.shields.io/badge/-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" height="42" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.instagram.com/fr3y.g" title="Instagram"><img src="https://img.shields.io/badge/-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="Instagram" height="42" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.facebook.com/Fr3y.G" title="Facebook"><img src="https://img.shields.io/badge/-1877F2?style=for-the-badge&amp;logo=facebook&amp;logoColor=white" alt="Facebook" height="42" /></a>
+  <a href="https://www.linkedin.com/in/geoffrey-diapana-310989386" target="_blank">
+    <img align="center" alt="linkedin logo" height="50" width="50" src="assets/linkedinlogo.png"/>
+  </a> &nbsp;&nbsp;
+  
+  <a href="https://profile-summary-for-github.herokuapp.com/user/yyerf" target="_blank">
+    <img align="center" alt="github logo" height="50" width="50" src="assets/githublogo.png"/>
+  </a> &nbsp;&nbsp;
+  
+  <a href="mailto:japzdiapana@gmail.com" target="_blank">
+    <img align="center" alt="gmail logo" height="50" width="50" src="assets/gmailogo.png" />
+  </a> &nbsp;&nbsp;
+
+  <a href="https://diapana.dev" target="_blank">
+    <img align="center" alt="My Dev.to link" height="50" width="50" src="assets/devtologo.png"/>
+</a> &nbsp;&nbsp;
+  <a>
 </p>
