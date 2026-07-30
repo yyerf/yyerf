@@ -45,7 +45,7 @@
     },
     {
       "label": "Focus.Software",
-      "value": "SaaS, Web Apps, ServerAdmin, DevOps, CI/CD"
+      "value": "Web Apps, ServerAdmin, DevOps, CI/CD"
     },
     {
       "label": "Focus.Hardware",
@@ -94,7 +94,8 @@
       "color": "100000",
       "logo": "github",
       "logo_color": "white",
-      "icon": "GH"
+      "icon": "GH",
+      "enabled": true
     },
     {
       "name": "LinkedIn",
@@ -102,32 +103,35 @@
       "color": "0077B5",
       "logo": "linkedin",
       "logo_color": "white",
-      "icon": "in"
+      "icon": "in",
+      "enabled": true
     },
     {
       "name": "Twitter",
-      "url": "https://twitter.com/diapana",
+      "url": "https://x.com/Fr3y_G",
       "color": "1DA1F2",
-      "logo": "twitter",
+      "logo": "x",
       "logo_color": "white",
-      "icon": "X"
+      "icon": "X",
+      "enabled": true
     },
     {
       "name": "Instagram",
-      "url": "https://instagram.com/diapana",
+      "url": "https://www.instagram.com/fr3y.g",
       "color": "E4405F",
       "logo": "instagram",
       "logo_color": "white",
-      "icon": "IG"
+      "icon": "IG",
+      "enabled": true
     },
     {
       "name": "Facebook",
-      "url": "",
+      "url": "https://www.facebook.com/Fr3y.G",
       "color": "1877F2",
       "logo": "facebook",
       "logo_color": "white",
       "icon": "f",
-      "enabled": false
+      "enabled": true
     }
   ],
   "update_readme_socials": true,

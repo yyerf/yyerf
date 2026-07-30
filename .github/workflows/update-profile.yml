@@ -1,9 +1,15 @@
 name: Update profile card
 
 on:
+  # Allows you to run the workflow manually from the Actions tab.
   workflow_dispatch:
+
+  # Runs at 16:17 UTC, which is 12:17 AM in the Philippines.
+  # This updates your personal age and GitHub statistics once per day.
   schedule:
-    - cron: "17 0 * * *"
+    - cron: "17 16 * * *"
+
+  # Regenerate the card whenever its source files are changed.
   push:
     branches:
       - main
@@ -12,46 +18,69 @@ on:
       - "portrait.txt"
       - "portrait_map.json"
       - "generate_profile.py"
+      - "README.md"
       - ".github/workflows/update-profile.yml"
 
 permissions:
   contents: write
 
+# Prevent two profile-generation jobs from writing the same files at once.
 concurrency:
-  group: profile-card-${{ github.ref }}
-  cancel-in-progress: true
+  group: profile-card-writer
+  cancel-in-progress: false
 
 jobs:
   build:
+    name: Generate and update profile card
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v7
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v7
+        uses: actions/setup-python@v6
         with:
           python-version: "3.13"
 
-      - name: Generate profile SVGs
+      - name: Generate profile SVGs and social links
         env:
+          # Optional PAT for private-repository statistics.
           PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+
+          # Automatically provided by GitHub Actions.
           GITHUB_TOKEN: ${{ github.token }}
+
+          # Automatically resolves to yyerf in the yyerf/yyerf repository.
           GITHUB_USERNAME: ${{ github.repository_owner }}
         run: python generate_profile.py
 
-      - name: Commit refreshed card
+      - name: Commit refreshed profile files
         shell: bash
         run: |
-          if git diff --quiet -- dark_mode.svg light_mode.svg cache/stats_cache.json; then
+          if git diff --quiet -- \
+            dark_mode.svg \
+            light_mode.svg \
+            cache/stats_cache.json \
+            README.md; then
             echo "Profile card is already current."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dark_mode.svg light_mode.svg cache/stats_cache.json
+
+          git add \
+            dark_mode.svg \
+            light_mode.svg \
+            cache/stats_cache.json \
+            README.md
+
+          if git diff --cached --quiet; then
+            echo "No generated changes need to be committed."
+            exit 0
+          fi
+
           git commit -m "chore: refresh profile card"
           git push
