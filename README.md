@@ -25,48 +25,20 @@
 
 <!-- PROFILE-SOCIALS:START -->
 <p align="center">
-  <a
-    href="https://github.com/yyerf"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <img
-      src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white"
-      alt="GitHub"
-    />
+  <a href="https://github.com/yyerf" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub" />
   </a>
-
-  <a
-    href="https://www.linkedin.com/in/geoffrey-diapana-310989386"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <img
-      src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white"
-      alt="LinkedIn"
-    />
+  <a href="https://www.linkedin.com/in/geoffrey-diapana-310989386" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" />
   </a>
-
-  <a
-    href="https://x.com/Fr3y_G"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <img
-      src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&amp;logo=twitter&amp;logoColor=white"
-      alt="Twitter"
-    />
+  <a href="https://x.com/Fr3y_G" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&amp;logo=x&amp;logoColor=white" alt="Twitter" />
   </a>
-
-  <a
-    href="https://www.instagram.com/fr3y.g"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <img
-      src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white"
-      alt="Instagram"
-    />
+  <a href="https://www.instagram.com/fr3y.g" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://www.facebook.com/Fr3y.G" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&amp;logo=facebook&amp;logoColor=white" alt="Facebook" />
   </a>
 </p>
 <!-- PROFILE-SOCIALS:END -->
