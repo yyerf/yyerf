@@ -1,4 +1,328 @@
 {
-  "summary": {},
-  "repositories": {}
+  "repositories": {
+    "yyerf/EvilSln-DeepDive": {
+      "additions": 28,
+      "commit_count": 2,
+      "commits": 2,
+      "deletions": 2,
+      "head_oid": "626cc6ec1a834714269e8496dd81d1d461496760"
+    },
+    "yyerf/Graduate_School_System": {
+      "additions": 42650,
+      "commit_count": 304,
+      "commits": 51,
+      "deletions": 14410,
+      "head_oid": "a98bebea55276491335aebee12cd28fc18b9f9dc"
+    },
+    "yyerf/NLP-tagalog-stemmer": {
+      "additions": 2118,
+      "commit_count": 2,
+      "commits": 2,
+      "deletions": 0,
+      "head_oid": "16595c93be8f63465ec0120c226106a3ae5cd884"
+    },
+    "yyerf/automated-cat-feeder": {
+      "additions": 6063,
+      "commit_count": 6,
+      "commits": 6,
+      "deletions": 196,
+      "head_oid": "1ebbc365ec9c868d063f00151caa27af84649863"
+    },
+    "yyerf/bh-management": {
+      "additions": 94773,
+      "commit_count": 4,
+      "commits": 4,
+      "deletions": 18088,
+      "head_oid": "be153931faaba89104608b8084fbd42570f98930"
+    },
+    "yyerf/billing": {
+      "additions": 1,
+      "commit_count": 1,
+      "commits": 1,
+      "deletions": 0,
+      "head_oid": "b307bed889e68b9d7acf6402fa499fa5cd2f9cec"
+    },
+    "yyerf/bloom-the-last-hope": {
+      "additions": 30,
+      "commit_count": 7,
+      "commits": 7,
+      "deletions": 0,
+      "head_oid": "2e2facd8ca002201b662a18a2daad5970517a5b9"
+    },
+    "yyerf/calendar-of-events": {
+      "additions": 293995,
+      "commit_count": 1,
+      "commits": 1,
+      "deletions": 0,
+      "head_oid": "b4f726f2f81f1d22d563f22a79adf47d1825b8f3"
+    },
+    "yyerf/capstone-coffee": {
+      "additions": 19105,
+      "commit_count": 7,
+      "commits": 7,
+      "deletions": 1945,
+      "head_oid": "e59a12657386f935ae6f61a4f8ed9ecd12bdd6ea"
+    },
+    "yyerf/card-cloud": {
+      "additions": 32478,
+      "commit_count": 14,
+      "commits": 2,
+      "deletions": 1,
+      "head_oid": "916cfa376ba79e80f636997d2e945ccffc375837"
+    },
+    "yyerf/cat-litter-inventory-management-system": {
+      "additions": 4490,
+      "commit_count": 4,
+      "commits": 4,
+      "deletions": 2,
+      "head_oid": "dbd7818cf8ed38793b8c1f842b18c91425b78a28"
+    },
+    "yyerf/cloud-chaser": {
+      "additions": 23432,
+      "commit_count": 24,
+      "commits": 14,
+      "deletions": 18329,
+      "head_oid": "b08136dc32568b5a1f56a746b35d0019242fde5d"
+    },
+    "yyerf/cmd-showcase-portal": {
+      "additions": 2643,
+      "commit_count": 4,
+      "commits": 2,
+      "deletions": 279,
+      "head_oid": "b6e3e1c1be5a8f789efbb8ca970f27d44deaedf8"
+    },
+    "yyerf/comlab-monitoring-system": {
+      "additions": 18785,
+      "commit_count": 28,
+      "commits": 28,
+      "deletions": 4697,
+      "head_oid": "6d61a6e2a6238070c6efece6c0f05f7c11ba1867"
+    },
+    "yyerf/davao-bus-routes": {
+      "additions": 147738,
+      "commit_count": 16,
+      "commits": 16,
+      "deletions": 3423,
+      "head_oid": "c873a9276827c3eef766a2691ed227f2c1f5a437"
+    },
+    "yyerf/diapana-hub": {
+      "additions": 0,
+      "commit_count": 3,
+      "commits": 0,
+      "deletions": 0,
+      "head_oid": "74e3cad90c5b7a6ca44ec9a237041e41aafdd9b8"
+    },
+    "yyerf/diapana.dev": {
+      "additions": 13044,
+      "commit_count": 39,
+      "commits": 36,
+      "deletions": 11423,
+      "head_oid": "99d45f6a9382c788636548eee3a0640b12298c00"
+    },
+    "yyerf/domain-expert-thesis": {
+      "additions": 36857,
+      "commit_count": 7,
+      "commits": 7,
+      "deletions": 3923,
+      "head_oid": "5364097563de2f87f80f5f84420f92a5bd37eadb"
+    },
+    "yyerf/fruit-ninja-kyla": {
+      "additions": 1,
+      "commit_count": 1,
+      "commits": 1,
+      "deletions": 0,
+      "head_oid": "a33fb069961e3b3d9eaaa902007ded79275235b3"
+    },
+    "yyerf/gpg-public-keys-management": {
+      "additions": 21704,
+      "commit_count": 5,
+      "commits": 5,
+      "deletions": 113,
+      "head_oid": "2183ecacaa8390017e592c12f8c15d998472e880"
+    },
+    "yyerf/guilds-uic": {
+      "additions": 35408,
+      "commit_count": 32,
+      "commits": 32,
+      "deletions": 1281,
+      "head_oid": "6db343cce814e1d9245b01a794e583a5fc2a657d"
+    },
+    "yyerf/h4ckTheBox_Solution": {
+      "additions": 18,
+      "commit_count": 2,
+      "commits": 2,
+      "deletions": 0,
+      "head_oid": "cd0aacc919fa6760bb42a5ac7f3d5e30af4c1fa3"
+    },
+    "yyerf/hotel-management-system": {
+      "additions": 4295,
+      "commit_count": 1,
+      "commits": 1,
+      "deletions": 0,
+      "head_oid": "600d2d54e0763f9bfde9e70b10fb01b30ebc985b"
+    },
+    "yyerf/iot-e-waste": {
+      "additions": 21154,
+      "commit_count": 6,
+      "commits": 6,
+      "deletions": 1626,
+      "head_oid": "b86c84c0811a233d804cc92787165c93a015ba65"
+    },
+    "yyerf/mobile-dev": {
+      "additions": 7645,
+      "commit_count": 54,
+      "commits": 54,
+      "deletions": 179,
+      "head_oid": "ccc56251fc3456c112b28fd03ae5541a5a0a1d70"
+    },
+    "yyerf/music-ball": {
+      "additions": 451,
+      "commit_count": 1,
+      "commits": 1,
+      "deletions": 0,
+      "head_oid": "3e0459d5f23e253d5c9467c34384a7164886b267"
+    },
+    "yyerf/open-vision-games": {
+      "additions": 216208,
+      "commit_count": 2,
+      "commits": 2,
+      "deletions": 1,
+      "head_oid": "24128959c44271b2e5c66dc23a6936ef36f64ace"
+    },
+    "yyerf/paprint": {
+      "additions": 49577,
+      "commit_count": 39,
+      "commits": 39,
+      "deletions": 1526,
+      "head_oid": "7fcf7b1911f1676261267fa0f621e73fc3f3e5a6"
+    },
+    "yyerf/porkski": {
+      "additions": 24240,
+      "commit_count": 15,
+      "commits": 15,
+      "deletions": 1078,
+      "head_oid": "86fcb8b135d8c1b1edfeed9f28f35e182f3a60cf"
+    },
+    "yyerf/practice": {
+      "additions": 3,
+      "commit_count": 5,
+      "commits": 5,
+      "deletions": 0,
+      "head_oid": "88f5a0309c2487d3ae56eb71a97a49cac13fd77c"
+    },
+    "yyerf/pulse": {
+      "additions": 2288549,
+      "commit_count": 211,
+      "commits": 204,
+      "deletions": 1926843,
+      "head_oid": "defcce96418f329c9b1e7a4bd30e0318a5f3834e"
+    },
+    "yyerf/q2-e-minder-coronado-diapana": {
+      "additions": 13776,
+      "commit_count": 3,
+      "commits": 3,
+      "deletions": 0,
+      "head_oid": "046e931a9a26225a174e352dc402db9a7b6f99b5"
+    },
+    "yyerf/qcsp": {
+      "additions": 10421,
+      "commit_count": 4,
+      "commits": 4,
+      "deletions": 31,
+      "head_oid": "c631d29a7c780e728734891fc04379e8dfe73621"
+    },
+    "yyerf/quiz": {
+      "additions": 2053,
+      "commit_count": 2,
+      "commits": 2,
+      "deletions": 26,
+      "head_oid": "f789db237d2fd8ef715104dccfa92dc676e711f4"
+    },
+    "yyerf/radalyx-scraper": {
+      "additions": 85841,
+      "commit_count": 66,
+      "commits": 66,
+      "deletions": 28524,
+      "head_oid": "1e0ddcb22adef0d764691c99b05d8cf37fa73aca"
+    },
+    "yyerf/rsea-limited": {
+      "additions": 15829,
+      "commit_count": 3,
+      "commits": 3,
+      "deletions": 2,
+      "head_oid": "847b391cc7bedbce382263eb1baf1133e02b3680"
+    },
+    "yyerf/smartID-printer": {
+      "additions": 745299,
+      "commit_count": 2,
+      "commits": 2,
+      "deletions": 2,
+      "head_oid": "a4f35f22c9dc7efd11e20ff6700e88ae2a2edf4c"
+    },
+    "yyerf/sync-visualizer-lab": {
+      "additions": 53,
+      "commit_count": 5,
+      "commits": 2,
+      "deletions": 220,
+      "head_oid": "e760f4fe28b7ab8c68cb6cb1c40aad426df5c67f"
+    },
+    "yyerf/techno-mensara": {
+      "additions": 232778,
+      "commit_count": 76,
+      "commits": 58,
+      "deletions": 60884,
+      "head_oid": "7f2e1a8f59292da432e1227a6a81743299aaf608"
+    },
+    "yyerf/tele-medicine": {
+      "additions": 11082,
+      "commit_count": 2,
+      "commits": 2,
+      "deletions": 563,
+      "head_oid": "4fe9d3c881a534715845feea39c2eb2d6b6e12b2"
+    },
+    "yyerf/test2": {
+      "additions": 0,
+      "commit_count": 0,
+      "commits": 0,
+      "deletions": 0,
+      "head_oid": ""
+    },
+    "yyerf/thesis-mendo": {
+      "additions": 5130,
+      "commit_count": 4,
+      "commits": 3,
+      "deletions": 332,
+      "head_oid": "f235a8b50d61a26bb2369f2f14022ca7a3a1cb09"
+    },
+    "yyerf/whoami": {
+      "additions": 16033,
+      "commit_count": 31,
+      "commits": 31,
+      "deletions": 374,
+      "head_oid": "eabb9caa124a216c8241484ccb081be650377d5d"
+    },
+    "yyerf/yyerf": {
+      "additions": 17917,
+      "commit_count": 9,
+      "commits": 9,
+      "deletions": 84,
+      "head_oid": "01f61f3a3743a0411d89b940d83b9739367ad802"
+    }
+  },
+  "summary": {
+    "account_age": "2 years, 10 months, 14 days",
+    "affiliated": 67,
+    "commits": 302,
+    "created_at": "2023-09-15T13:38:47Z",
+    "followers": 11,
+    "loc_add": 4563695,
+    "loc_commits": 742,
+    "loc_del": 2100407,
+    "loc_net": 2463288,
+    "repos": 44,
+    "stars": 1,
+    "user_id": "U_kgDOCKaNsA",
+    "username": "yyerf"
+  },
+  "updated_at": "2026-07-30T12:09:39.510169+00:00"
 }
