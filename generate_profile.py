@@ -852,15 +852,14 @@ def configured_socials(config: dict[str, Any]) -> list[dict[str, Any]]:
 
 
 def shields_badge_url(social: dict[str, Any]) -> str:
-    """Build a stable Shields.io URL without depending on extra packages."""
-    label = quote(str(social["name"]), safe="")
+    """Build a compact icon-only Shields.io URL."""
     color = quote(str(social["color"]), safe="")
     parameters = ["style=for-the-badge"]
     if social.get("logo"):
         parameters.append("logo=" + quote(str(social["logo"]), safe=""))
     if social.get("logo_color"):
         parameters.append("logoColor=" + quote(str(social["logo_color"]), safe=""))
-    return f"https://img.shields.io/badge/{label}-{color}?" + "&".join(parameters)
+    return f"https://img.shields.io/badge/-{color}?" + "&".join(parameters)
 
 
 def render_socials_readme_block(config: dict[str, Any]) -> str:
@@ -883,8 +882,8 @@ def render_socials_readme_block(config: dict[str, Any]) -> str:
         badge_url = html_escape(shields_badge_url(social), quote=True)
         lines.extend(
             [
-                f'  <a href="{url}" target="_blank" rel="noopener noreferrer">',
-                f'    <img src="{badge_url}" alt="{name}" />',
+                f'  <a href="{url}" target="_blank" rel="noopener noreferrer" title="{name}">',
+                f'    <img src="{badge_url}" alt="{name}" height="34" />',
                 "  </a>",
             ]
         )
@@ -1092,6 +1091,8 @@ def render_svg(
     socials_badge_height = int(layout.get("socials_badge_height", 30))
     socials_gap = int(layout.get("socials_gap", 7))
     socials_font_size = int(layout.get("socials_font_size", 12))
+    quote_heading_y = int(layout.get("quote_heading_y", socials_heading_y))
+    quote_text_y = int(layout.get("quote_text_y", 580))
 
     terminal_user = str(config.get("terminal_user", "user"))
     terminal_host = str(config.get("terminal_host", "host"))
@@ -1156,20 +1157,23 @@ def render_svg(
         )
     )
 
-    socials = configured_socials(config)
-    panel_markup.append(
-        render_header(panel_x, socials_heading_y, panel_columns, "- Socials")
-    )
-    social_max_width = max(1, width - panel_x - 34)
-    social_badges_markup = render_social_badges(
-        panel_x + 14,
-        socials_badge_y,
-        social_max_width - 14,
-        socials_badge_height,
-        socials_font_size,
-        socials_gap,
-        socials,
-    )
+    favorite_quote = str(config.get("favorite_quote", "")).strip()
+    if favorite_quote:
+        if len(favorite_quote) > panel_columns:
+            raise ValueError(
+                "favorite_quote is too long for the configured panel_columns "
+                f"({len(favorite_quote)} > {panel_columns})."
+            )
+        panel_markup.append(
+            render_header(panel_x, quote_heading_y, panel_columns, "- Favorite Quote")
+        )
+        panel_markup.append(
+            text_span(favorite_quote, "value", x=panel_x + 14, y=quote_text_y)
+        )
+
+    # Social links remain in README.md as real clickable icon buttons. The SVG
+    # card is one embedded image, so the lower card area is used for the quote.
+    social_badges_markup = ""
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title description">

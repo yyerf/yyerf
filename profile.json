@@ -78,20 +78,19 @@
     "panel_columns": 72,
     "row_line_height": 23,
     "portrait_font_size": 13,
-    "socials_heading_y": 550,
-    "socials_badge_y": 565,
-    "socials_badge_height": 30,
-    "socials_gap": 7,
+    "quote_heading_y": 550,
+    "quote_text_y": 580,
     "socials_font_size": 12
   },
   "portrait_map_file": "portrait_map.json",
   "birth_date": "2004-09-12",
   "timezone": "Asia/Manila",
+  "favorite_quote": "“My advantage isn’t knowing every answer—it’s knowing how to find one.”",
   "socials": [
     {
       "name": "GitHub",
       "url": "https://github.com/yyerf",
-      "color": "100000",
+      "color": "181717",
       "logo": "github",
       "logo_color": "white",
       "icon": "GH",
@@ -100,19 +99,10 @@
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/geoffrey-diapana-310989386",
-      "color": "0077B5",
+      "color": "0A66C2",
       "logo": "linkedin",
       "logo_color": "white",
       "icon": "in",
-      "enabled": true
-    },
-    {
-      "name": "Twitter",
-      "url": "https://x.com/Fr3y_G",
-      "color": "1DA1F2",
-      "logo": "x",
-      "logo_color": "white",
-      "icon": "X",
       "enabled": true
     },
     {
