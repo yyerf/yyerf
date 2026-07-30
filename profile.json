@@ -1,0 +1,135 @@
+{
+  "display_name": "Geoffrey Diapz",
+  "github_username": "yyerf",
+  "terminal_user": "fr3yy",
+  "terminal_host": "yyerf",
+  "alt_text": "Geoffrey Diapz GitHub profile card",
+  "rows": [
+    {
+      "label": "OS",
+      "value": "Pop!_OS, Raspberry Pi OS, Windows Server"
+    },
+    {
+      "label": "Uptime",
+      "value": "{age}"
+    },
+    {
+      "label": "Host",
+      "value": "Student Developer & Freelancer"
+    },
+    {
+      "label": "Kernel",
+      "value": "Computer Vision + Embedded Systems"
+    },
+    {
+      "label": "IDE",
+      "value": "VS Code, Codex CLI, Git"
+    },
+    {
+      "blank": true
+    },
+    {
+      "label": "Languages.Programming",
+      "value": "Python, Java, JavaScript, Flutter"
+    },
+    {
+      "label": "Languages.Computer",
+      "value": "HTML, CSS, JSON, YAML, Bash"
+    },
+    {
+      "label": "Languages.Real",
+      "value": "English, Filipino"
+    },
+    {
+      "blank": true
+    },
+    {
+      "label": "Focus.Software",
+      "value": "SaaS, Web Apps, ServerAdmin, DevOps, CI/CD"
+    },
+    {
+      "label": "Focus.Hardware",
+      "value": "Hardware Hacking, RFID, Raspberry Pi, Arduino"
+    }
+  ],
+  "contact_rows": [
+    {
+      "label": "GitHub",
+      "value": "@{username}"
+    },
+    {
+      "label": "Location",
+      "value": "Philippines"
+    }
+  ],
+  "stats": {
+    "collect_loc": true,
+    "include_forks": false,
+    "cache_file": "cache/stats_cache.json"
+  },
+  "layout": {
+    "width": 1200,
+    "height": 620,
+    "font_size": 15,
+    "portrait_x": 18,
+    "portrait_y": 24,
+    "portrait_line_height": 16,
+    "panel_x": 520,
+    "panel_columns": 72,
+    "row_line_height": 23,
+    "portrait_font_size": 13,
+    "socials_heading_y": 550,
+    "socials_badge_y": 565,
+    "socials_badge_height": 30,
+    "socials_gap": 7,
+    "socials_font_size": 12
+  },
+  "portrait_map_file": "portrait_map.json",
+  "birth_date": "2004-09-12",
+  "timezone": "Asia/Manila",
+  "socials": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/yyerf",
+      "color": "100000",
+      "logo": "github",
+      "logo_color": "white",
+      "icon": "GH"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/geoffrey-diapana-310989386",
+      "color": "0077B5",
+      "logo": "linkedin",
+      "logo_color": "white",
+      "icon": "in"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/diapana",
+      "color": "1DA1F2",
+      "logo": "twitter",
+      "logo_color": "white",
+      "icon": "X"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/diapana",
+      "color": "E4405F",
+      "logo": "instagram",
+      "logo_color": "white",
+      "icon": "IG"
+    },
+    {
+      "name": "Facebook",
+      "url": "",
+      "color": "1877F2",
+      "logo": "facebook",
+      "logo_color": "white",
+      "icon": "f",
+      "enabled": false
+    }
+  ],
+  "update_readme_socials": true,
+  "readme_file": "README.md"
+}
