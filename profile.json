@@ -124,6 +124,6 @@
       "enabled": true
     }
   ],
-  "update_readme_socials": true,
+  "update_readme_socials": false,
   "readme_file": "README.md"
 }
