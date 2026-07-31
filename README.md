@@ -21,7 +21,7 @@
 <!-- ========================================= -->
 <!-- Profile views                             -->
 <!-- ========================================= -->
-
+<img src="assets/borderseperator.gif">
 <p align="center">
   <img
     src="https://komarev.com/ghpvc/?username=yyerf&amp;label=PROFILE%20VIEWS&amp;color=00C853&amp;style=for-the-badge"
