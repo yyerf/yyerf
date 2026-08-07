@@ -239,11 +239,11 @@
       "head_oid": "f789db237d2fd8ef715104dccfa92dc676e711f4"
     },
     "yyerf/radalyx-scraper": {
-      "additions": 86939,
-      "commit_count": 69,
-      "commits": 69,
-      "deletions": 28656,
-      "head_oid": "dd01a11f886733448a3fb3d5faff20829f5f0ed1"
+      "additions": 95693,
+      "commit_count": 89,
+      "commits": 89,
+      "deletions": 29476,
+      "head_oid": "8a98adeee07e8e9b205331d30888f6eb9b10f41a"
     },
     "yyerf/rsea-limited": {
       "additions": 15829,
@@ -303,26 +303,26 @@
     },
     "yyerf/yyerf": {
       "additions": 18168,
-      "commit_count": 28,
+      "commit_count": 29,
       "commits": 16,
       "deletions": 339,
-      "head_oid": "c2e3d9d094ef3baa7537352c291d5fc5b1465128"
+      "head_oid": "518039eb175a12eb067137b02c259d944be386ce"
     }
   },
   "summary": {
-    "account_age": "2 years, 10 months, 21 days",
+    "account_age": "2 years, 10 months, 23 days",
     "affiliated": 67,
     "commits": 309,
     "created_at": "2023-09-15T13:38:47Z",
     "followers": 11,
-    "loc_add": 4565044,
-    "loc_commits": 752,
-    "loc_del": 2100794,
-    "loc_net": 2464250,
+    "loc_add": 4573798,
+    "loc_commits": 772,
+    "loc_del": 2101614,
+    "loc_net": 2472184,
     "repos": 44,
     "stars": 1,
     "user_id": "U_kgDOCKaNsA",
     "username": "yyerf"
   },
-  "updated_at": "2026-08-05T17:53:14.795166+00:00"
+  "updated_at": "2026-08-07T17:06:29.701406+00:00"
 }
